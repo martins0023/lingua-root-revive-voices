@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,43 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom LinguaRoot color palette
+				earth: {
+					50: '#faf8f6',
+					100: '#f5f1ec',
+					200: '#e8ddd0',
+					300: '#d9c7b0',
+					400: '#c7a688',
+					500: '#b8926a',
+					600: '#a67c5a',
+					700: '#8a634a',
+					800: '#5D4037',
+					900: '#4a332a'
+				},
+				forest: {
+					50: '#f1f8f4',
+					100: '#ddeee3',
+					200: '#bddcc9',
+					300: '#92c5a7',
+					400: '#63a67f',
+					500: '#2E7D32',
+					600: '#26692e',
+					700: '#205527',
+					800: '#1c4622',
+					900: '#18391d'
+				},
+				sand: {
+					50: '#F5F5DC',
+					100: '#f2f2d6',
+					200: '#ebebc7',
+					300: '#e3e3b5',
+					400: '#d9d99f',
+					500: '#cdcd85',
+					600: '#bebe67',
+					700: '#a8a854',
+					800: '#8f8f46',
+					900: '#77773b'
 				}
 			},
 			borderRadius: {
